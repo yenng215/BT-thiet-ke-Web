@@ -1,0 +1,53 @@
+.w1000 {
+    width: 560px;
+     margin: 0 auto}
+ body {
+    font-family: 'Roboto Slab', serif;
+    }
+h1{
+    font-size: 20px;
+    color:rgb(19, 151, 151)
+}
+.font{font-weight: bold;
+font-style: italic;
+}
+.nen {
+    background-color:rgb(66, 189, 189);
+    color:white;
+    font-weight: bold;
+   }
+ a:link {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: rgb(228, 228, 19);
+  }
+ 
+   
+.khung-anh {
+        width: 560px;
+        height: 430px;
+        background-color: rgb(194, 186, 186);
+        margin-bottom: 10px;
+        
+      
+      }
+
+      .khung-anh img{
+    display:block;
+        margin-left:auto;
+        margin-right:auto;
+        width: 500px;
+        height: auto;
+        margin-bottom: auto;
+        }
+.khung-anh .chu-thich {
+        left: 0;
+        padding: 15px;
+        width: 500px;
+        text-align: center;
+        color: rgb(66, 68, 189);;
+}
+
+    
