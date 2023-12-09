@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Bố cục</title>
+    <style>
+    .container {       
+       margin: 200px;
+       box-sizing: border-box;
+       color: white;
+    padding-bottom:36px ;
+      }
+      .header {
+        background-color: #ddd;
+        text-align: center;
+        font-size:20px;
+        padding: 20px;
+      }
+      .body1 {
+        display: flex;
+        justify-content: space-between;
+        background-color: DodgerBlue;
+      }
+      .body1 > div {
+        width: 300px;
+        margin: 10px;
+        text-align: center;
+        line-height: 300px;
+      
+}
+      .footer {
+         padding: 20px;
+        text-align: center;
+         background: #ddd;
+}
+         @media (max-width: 500px) {
+            .flex-item-right, .flex-item-left {
+             flex: 100%;
+            }
+}
+      </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">header</div>     
+        <div class="body1">      
+        <div class="col" style=" background-color: rgb(133, 140, 140);">col1</div>       
+        <div class="col" style=" background-color: rgb(158, 167, 167);">col2</div> 
+        <div class="col" style=" background-color: rgb(184, 193, 193);">co13</div>
+        </div>
+        
+        <div class="footer"> footer</div>
+        
+        </div>
+
+
+
+
+
+
+
+</body>
+</html>

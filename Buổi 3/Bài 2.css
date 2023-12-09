@@ -1,0 +1,228 @@
+body {
+    font-family:  'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+  }
+
+.container { 
+    background-color: white;
+    margin-left: 18%;
+    margin-right: 18%;   
+   
+}
+div.header {          
+            padding: 0;
+            overflow: hidden;
+            background-color: #298896;
+            position: sticky;
+            top: 0;
+          }
+        
+    .header ul li {
+            float: left;
+            list-style-type: none;
+        }
+    .header ul {
+      overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+    }
+    .header li a {
+        display: block;
+        font-size: 14px;   
+        color: white;
+        text-align: center;
+        padding: 0 0;
+        list-style-type: none;
+        text-decoration: none;
+       
+    }
+    
+    .header li a:hover {
+        background-color: #2b94a5;
+    }
+    .acb{
+        border-radius: 10px;
+    border: 1px solid hsla(0,0%,100%,.3);
+    }
+
+    .header li a:hover {
+        background: hsla(0,0%,100%,.1)
+    }
+    .flex-container {
+        display: flex;
+        align-items: stretch; 
+      }
+      
+      .flex-container > div {  
+        color: black;
+        margin-top: 10px;      
+        line-height: 80px;
+        font-size: 20px;
+      }
+      img .header1 {  
+        width:600px;  
+      }
+      img .col1 {
+         float: left;}
+        
+
+      a{
+        color: black;
+        text-decoration: none;}
+   
+       
+      
+      .body1 {
+        display: flex;
+        font-size: 16px;
+        
+       
+      }
+      .body1 > div {      
+        width: 200px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;   
+        line-height: 30px;
+      
+}
+    a {
+        position: relative;
+        text-decoration: none;
+        color:rgb(11, 9, 9);}
+    a:hover {
+           color: #2198aa;
+        }
+     
+    .footer{ width:650px;} 
+      .footer p {
+        font-size: 16px;
+        line-height:25px;
+        margin-bottom: 5px;   
+        height: 100px ; 
+      }
+    .footer img {
+        float: left;
+        line-height:50px;
+      }
+    .abh img{ float: left;}
+    .abh p {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 5px;  
+        height: 80px ;    
+      }
+   .bnc{
+      display: block;
+      background: #fef9e6 url(https://baomoi-static.bmcdn.me/web/styles/img/global-map.png) top/330px 164px no-repeat;
+      padding: 5px;
+      min-height:500px;
+   }
+  .bm_HX {
+    display: inline-block;
+   
+}
+  .bm_G {
+  font-weight: 600;
+  display:  inline-block;
+  line-height: 0;
+  vertical-align: top;
+  color: #db562b;
+
+}
+.bm_BG {
+
+  font-size: 18px; 
+  color: #db562b;
+  display: inline-block;
+  line-height: 0;}
+.bm_MR:before {
+  content: ""
+}
+.bm_Vn {
+  color: #db562b;
+  display: inline-block;
+  font-size: 24px;
+  text-transform: uppercase;}
+
+  select {
+    width: 100%;
+    height: 35px;
+    line-height: 1.2;
+    border-radius: 3px;
+    vertical-align: top;
+    border: 1px solid #f3eac4;
+    background-color: #fefcf0;
+   }
+   .bm_Ua {
+    background-color: #2fa1b3;
+    height: 50px;
+    display: flex;
+    align-items: center;
+   
+}
+.bm_X {    justify-content: flex-start;
+  margin-right: 200px;}
+.bm_UX {
+  width: 120px;
+  height: 36px;
+  display: inline-block;
+  background: url(https://baomoi-static.bmcdn.me/web/styles/img/desktop-logo-v2.png) 0 0/120px 72px;
+}
+.bm_a {
+  vertical-align: top;
+ }
+  .bm_Ig {
+    margin-left: 150px;
+    justify-content: flex-end;
+    width: 500px; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid #e9ecef;
+    background-color: #fff;
+}
+.bm_Ig input {
+  width: 100%;
+  padding-left: 10px;
+  font-size: 1.1rem; 
+  font-weight: 400;
+  color: var(--black);}
+
+  form {
+    display: block;
+    margin-top: 0;
+   
+}
+ .bm_Ub {
+  margin: 15px 0 10px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  text-align: center;}
+  .bm_PB {   
+    color: #aeaeae;
+    border-radius: 50%;   
+    margin-right: 5px;
+    font-size:10px;
+    display: inline-block;  
+    }
+    .flex-container2 {
+      display: flex;
+      align-items: stretch;
+     
+    }
+    .bhv{text-align: right;}
+    .flex-container2 > div { 
+      color: #aeaeae; 
+      line-height: 15px;
+      font-size: 10px;
+    }
+
+    @media (max-width: 800px) {
+      .flex-item-right, .flex-item-left {
+       flex: 100%;
+      }
+}
