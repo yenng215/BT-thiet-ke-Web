@@ -1,4 +1,4 @@
-       body {
+         body {
             font-family: 'Open Sans', sans-serif;
             background-color: white;
             background-size: cover;
@@ -214,7 +214,7 @@
          .header__{
            padding-top: 135px;   
             background-color: #2f2f2f;
-            Width: 1000px;rgb(56, 56, 56);
+            Width: 1000px;
             height: 320px;
             color:#f3f4f4;
          }
@@ -233,10 +233,10 @@
             color: rgb(168, 166, 166);   
             align-items: center;
        }
-       .ai {
-         font-size: 35px;
-         text-decoration: none;
-         color:#080808;
+         .ai {
+            font-size: 35px;
+            text-decoration: none;
+            color:#080808;
       }
          .footer {
             height: 450px;
