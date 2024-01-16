@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4</title>
+    <script type="text/javascript">
+        function validateForm() {
+        //Nhập họ
+        var x;
+        x = document.forms["myForm"]["txt_ho"].value;
+        if (x == "") {
+        alert("Bạn chưa nhập họ");
+        return false;
+        }
+        //Nhập tên
+        var x
+        x = document.getElementById("txt_ten").value;
+        if (x == "") {
+        alert("Bạn chưa nhập tên");
+        return false;
+        }
+        //Nhập ngày sinh
+        //Chọn kiểu giới tính
+        var x
+        x = document.getElementById("Nam");
+        var x
+        x = document.getElementById("Nu");
+        if ((Nam.checked == false) && (Nu.checked == false)) {
+        alert("Bạn phải chọn một giới tính");
+        return false;
+        }
+        //Nhập số điện thoại
+        var x
+        document.getElementById("txt_dienthoai").value;
+        if(isNaN(x) || length(x)==0 || length(x)>10){
+            alert("điện thoại phải là số, mời nhập lại")
+            return false;
+        }
+        }
+        
+        
+        //Chọn kiểu Sở thích
+        var x
+        x = document.getElementById("docsach");
+        var x
+        x = document.getElementById("xemphim");
+        var x
+        x = document.getElementById("nghenhac");
+        var x
+        x = document.getElementById("dabong");
+        if ((docsach.checked == false) && (xemphim.checked == false)&&(nghenhac.checked == false) && (dabong.checked == false)) {
+        alert("Bạn phải chọn một sở thích");
+        return false;
+        }
+        //Khác
+        var x
+        x = document.getElementById("txt_khac").value;
+        if (x == "") {
+        alert("Bạn chưa nhập khac");
+        return false;
+        }
+        </script>
+        </head>
+        <body>
+        <form action="" onsubmit="return validateForm()">
+        <h1>FORM ĐĂNG KÝ</h1>
+        <p>Họ:<input type="text" id="txt_ho" required></p>
+        <p>Tên:<input type="text" name="txt_ten"  required></p>
+        <p>Ngày sinh:
+        <select id="day" name="day" required><option value="">Ngày</option></select>
+        <select id="month" name="month" required><option value="">Tháng</option></select>
+        <select id="year" name="year" required><option value="">Năm</option></select>
+        </p>
+        <p>Giới Tính:
+        <input id="Nam" type="radio" required>Nam
+        <input id="Nu" type="radio" required>Nữ</p>
+        <p>Số điện thoại:<input type="text" id="txt_dienthoai" required></p>
+        <p>Sở thích:
+        <input id="docsach" type="checkbox" >Đọc sách
+        <input id="xemphim" type="checkbox" >Xem phim
+        <input id="nghenhac" type="checkbox" >Nghe nhạc
+        <input id="dabong" type="checkbox">Đá bóng</p>
+        <p>Khác:<input type="text" name="txt_khac"  required></p>
+        <input name="Submit" type="submit" value="Submit" />
+        <input name="Reset" type="reset" value="Reset" />
+        </form>
+        <script>
+            var daySelect = document.getElementById("day");
+            var monthSelect = document.getElementById("month");
+            var yearSelect = document.getElementById("year");
+            for (var i = 1; i <= 31; i++) {
+              var option = document.createElement("option");
+              option.value = i;
+              option.innerHTML =  "Ngày " + i;
+              daySelect.appendChild(option);
+            }
+            for (var i = 1; i <= 12; i++) {
+              var option = document.createElement("option");
+              option.value = i;
+              option.innerHTML = "Tháng " + i;
+              monthSelect.appendChild(option);
+            }
+            var currentYear = new Date().getFullYear();
+            for (var i = 1950; i <= currentYear; i++) {
+              var option = document.createElement("option");
+              option.value = i;
+              option.innerHTML = "Năm " + i;
+              yearSelect.appendChild(option);
+            }
+            document.getElementById("registrationForm").addEventListener("submit", function(event) {
+              var fullName = document.getElementById("fullName").value;
+              var day = daySelect.value;
+              var month = monthSelect.value;
+              var year = yearSelect.value;
+              console.log("Họ tên: " + fullName);
+              console.log("Ngày sinh: " + day + "/" + month + "/" + year);
+            });   
+            event.preventDefault();
+           </script>
+        </body>
+        </html>
+        

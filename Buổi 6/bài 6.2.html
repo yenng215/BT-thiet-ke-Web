@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>.red-text {
+    color: red;}
+</style> 
+</head>
+<body>
+    <h2>Các phép toán</h2>
+    <div id="calculator">
+        <p>Phép cộng <input type="text" name="cong1" id="cong1"> + <input type="text" name="cong2" id="cong2"><button onclick="cong()">=</button><input type="text" name="ketqua1" id="ketqua1"></p>
+        <p>Phép trừ <input type="text" name="tru1" id="tru1"> - <input type="text" name="tru2" id="tru2"><button onclick="tru()">=</button><input type="text" name="ketqua2" id="ketqua2"></p>
+        <p>Phép nhân <input type="text" name="nhan1" id="nhan1"> * <input type="text" name="nhan2" id="nhan2"><button onclick="nhan()">=</button><input type="text" name="ketqua3" id="ketqua3"></p>
+        <p>Phép chia <input type="text" name="chia1" id="chia1"> / <input type="text" name="chia2" id="chia2"><button onclick="chia()">=</button><input type="text" name="ketqua3" id="ketqua4"></p>
+    </div>
+    <h2>Các phép toán vừa thực hiện</h2>
+    <table style="width: 50%;">
+        <tr>
+            <td>PHÉP CỘNG</td>
+            <td>PHÉP TRỪ</td>
+            <td>PHÉP NHÂN</td>
+            <td>PHÉP CHIA</td>
+        </tr>
+        <tr>
+            <td id="kqpheptoan1"></td>
+            <td id="kqpheptoan2"></td>
+            <td id="kqpheptoan3"></td>
+            <td id="kqpheptoan4"></td>
+        </tr>
+    </table>
+    <script src="bai6.2.js"></script>
+</body>
+</html>
