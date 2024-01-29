@@ -1,0 +1,389 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: rgb(253, 232, 235);
+}
+
+.example {
+    display: flex;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    border: 1px solid grey;
+    float: left;
+    width: 70%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    padding: 10px;
+    float: left;
+    width: 30%;
+    background: #2196F3;
+    color: rgb(115, 176, 243);
+    border: 1px solid grey;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: pink;
+    color: #fff;
+    padding: 2rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar .container {
+    background-color: rgb(253, 232, 235);
+    justify-content: space-between;
+}
+
+.shop {
+    padding-left: 5%;
+    font-size: 4rem;
+    color: black;
+    transition: 0.4s;
+}
+
+.search-form {
+    display: none;
+}
+
+.navbar-toggler-open,
+.navbar-toggler-close {
+    font-size: 2.8;
+    background-color: transparent;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-toggler-open:hover,
+.navbar-toggler-close:hover {
+    opacity: 0.8;
+}
+
+.nholaitrai {
+    font-size: 2em;
+    padding-left: 3%;
+    color: black;
+    height: 80px;
+}
+
+.nholaiphai {
+    font-size: 15px;
+    padding-right: 70px;
+    height: 20px;
+}
+
+.navbar-collapse {
+    position: fixed;
+    right: -345px;
+    top: 0;
+    width: 345px;
+    height: 100%;
+    padding: 3% 3% 3% 3%;
+    z-index: 1;
+    transition: 0.4s;
+}
+
+.navbar-toggler-close {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+.navbar-nav {
+    margin-top: 5rem;
+    transition: 0.4s;
+}
+
+.nav-item {
+    margin: 5% 0;
+    text-align: left;
+}
+
+.nav-link {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: black;
+}
+
+.nav-item-dropdown {
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+ul .nav-item-dropdown-content {
+    max-height: auto;
+    width: 150px;
+    background-color: pink;
+}
+
+.nav-item-dropdown-content {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.nav-item-dropdown-content li a {
+    color: black;
+    font-weight: 300;
+}
+
+.nav-item-dropdown-content li a:hover {
+    opacity: 1;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left,.right {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+.show-dropdown {
+    max-height: 1000px;
+    margin: 1rem 0;
+}
+
+.show-navbar {
+    max-width: 40%;
+    right: 0;
+    background-color: rgb(253, 160, 176);
+}
+
+.icon-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-container i {
+    color: white;
+    font-size: 100%;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.anh {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container1 {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.container1 img {
+    max-width: 100%;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 15%;
+    max-width: 1200px;
+}
+
+.column {
+    flex-basis: 23%;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.column h3,p {
+    margin-left: 5%;
+}
+
+.column img {
+    max-width: 100%;   
+    position: relative;
+}
+
+.image {
+    position: relative;
+}
+
+.xem {
+    border-radius: 15px;
+    background: pink;
+    padding: 20px;
+    width: 150px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.ai {
+    font-size: 35px;
+    text-decoration: none;
+    color: #080808;
+}
+
+.footer {
+    margin-top: 50px;
+    height: 450px;
+    background-color: rgb(250, 249, 249);
+}
+
+.cott {
+    display: flex;
+    height: 370px;
+}
+
+.c11 {
+    width: 45%;
+    margin-right: 20px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.c21 {
+    width: 15%;
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+@media (max-width: 400px) {
+    .column {
+        flex-basis: 45%;
+        font-size: 11px;
+    }
+    .container2 h2{font-size: 12px;}
+    .footer{font-size: 10px;}
+    .ai{font-size: 16px;}
+ 
+
+}
+
+@media (min-width: 401px) and (max-width: 782px) {
+    .column {
+        flex-basis: 32%;
+        font-size: 12px;
+    }
+     .container2 h2{font-size: 16px;}
+     .footer{font-size: 14px;}
+    .ai{font-size: 20px;}
+}
+
+@media (min-width: 782px) and (max-width: 1200px) {
+    .column {
+        flex-basis: 23%;
+        font-size: 16px;
+    }
+      .container2 h2{font-size: 18px;}
+     .footer{font-size: 16px;}
+    .ai{font-size: 24px;}
+}
+
+@media (min-width: 1201px) {
+    .column {
+        flex-basis: 24%;
+        font-size: 20px;
+    }
+}
+@media (min-width: 782px) {
+    .navbar-toggler-close,
+    .navbar-toggler-open {
+        display: none;
+    }
+
+    .navbar-collapse {
+        width: 100%;
+        right: 0;
+        position: relative;
+        background-color: transparent;
+        padding: 0;
+    }
+
+    .navbar-nav {
+        margin-top: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .nav-item {
+        position: relative;
+        margin: 0 2.4rem 0 0;
+    }
+
+    .nav-item-dropdown-content {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        z-index: 10;
+        border-radius: .3rem;
+    }
+
+    .nav-item-dropdown-content li a {
+        opacity: 1;
+    }
+
+    .nav-item-dropdown-content li a:hover {
+        opacity: 0.8;
+    }
+
+    .show-dropdown {
+        padding: 1.5rem;
+    }
+
+    .nav-link:hover,
+    .nav-item-dropdown:hover {
+        color: black;
+        opacity: 0.8;
+    }
+}
